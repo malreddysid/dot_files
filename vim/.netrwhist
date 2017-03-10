@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/siddarth/Github/blog/blog'
+let g:netrw_dirhist_2='/Users/siddarth/Google_Drive/Courses/Reinforcement_Learning/Assignments/deeprl_hw1_src/deeprl_hw1'
