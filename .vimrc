@@ -1,3 +1,17 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+ 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+ 
+Plugin 'Valloric/YouCompleteMe'
+
+Plugin 'w0rp/ale'
+ 
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 colorscheme badwolf " to set the colorscheme. Colors are found at ~/.vim/colors
 set background=dark
 set guifont=Courier\ New\ 18
@@ -10,6 +24,8 @@ set tabstop=4 " number of visual spaces per tab
 set softtabstop=4 " number of spaces inserted for tab when editing
 
 set expandtab " makes tab as spaces when saving
+
+set shiftwidth=4
 
 set number " show line numbers
 
